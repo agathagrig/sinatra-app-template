@@ -2,13 +2,72 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>The Givers</title>
+        <link rel="stylesheet" href="../css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+
   </head>
   <body>
-  
-   
-   
-   
-   
+ 
+
+ 
   </body>
+</html><!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
+<html>
+	<head>
+		<title>Food Bank(s) In Your City</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div class="row">
+		<div>
+
+	<div id="resultlogo" style="float:left">
+			<!--<a href="https://agathagrig-agathagrig.c9users.io/">-->
+				
+ 		<!-- <img src= "images/awesome.png" alt="" style="width:200%" />-->
+ 	
+			<!--</a>-->
+	</div>
+	<div  style="width:20%;
+	float:left;">
+					<nav id="nav" class="nav" style="width:170%; margin-right: 2%;
+    margin-left: 2%; height:18%">
+						<ul>
+							<li><a href="https://agathagrig-agathagrig.c9users.io/">
+				<img src= "images/awesome.png" alt="" style="width:50%" />
+ 	
+			</a></li>
+							<li><a href="https://agathagrig-agathagrig.c9users.io/#intro" class="active">About</a></li>
+							
+							<li><a href="https://agathagrig-agathagrig.c9users.io/#first">Donate Food</a></li>
+							<li><a href="https://agathagrig-agathagrig.c9users.io/#second">Learn More</a></li>
+						</ul>
+					</nav>
+	</div>
+		</div>
+		</div>
+		
+
+ 
+  
+  	<!-- Introduction -->
+
+
+		<div id="major">
+				<h1><%=@answer%></h1>
+		</div>
+        <div id="map"> 
+                <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=<%=@answer.gsub(" ", "%20")%> &key=AIzaSyD_RnVFB9_WYHE7IFKGUzWs4u5DAFJLv6s" allowfullscreen></iframe>
+        </div>
+	</body>
 </html>
